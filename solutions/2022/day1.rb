@@ -7,7 +7,7 @@ class Solution
     @number_of_elf = 1
     calories_per_elf = {}
     @input.lines.each do |line|
-      calories = line.strip.to_i
+      calories = line.to_i
       calories.zero? ? new_elf : add_to_elf(calories_per_elf, @number_of_elf, calories)
     end
     calories_per_elf.values.max
@@ -29,7 +29,7 @@ class Solution
     @number_of_elf = 1
     calories_per_elf = {}
     @input.lines.each do |line|
-      calories = line.strip.to_i
+      calories = line.to_i
       calories.zero? ? new_elf : add_to_elf(calories_per_elf, @number_of_elf, calories)
     end
     calories_per_elf.values.max(3).sum

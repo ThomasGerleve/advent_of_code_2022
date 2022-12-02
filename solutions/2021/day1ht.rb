@@ -25,4 +25,4 @@ class Solution
   end
 end
 
-puts Solution.new(File.read("inputs/day1.txt")).result_part_one
+puts Solution.new(File.read("inputs/2021/day1.txt")).result_part_one
