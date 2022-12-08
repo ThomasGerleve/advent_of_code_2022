@@ -10,5 +10,5 @@ class Solution
   end
 end
 
-# puts "Part 1: #{Solution.new(File.read("inputs/20xx/dayx.txt")).result_part_one}"
-# puts "Part 2: #{Solution.new(File.read("inputs/20xx/dayx.txt")).result_part_two}"
+# puts "Part 1: #{Solution.new(File.read("inputs/2022/day8.txt")).result_part_one}"
+# puts "Part 2: #{Solution.new(File.read("inputs/2022/day8.txt")).result_part_two}"

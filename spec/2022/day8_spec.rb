@@ -1,4 +1,4 @@
-require_relative "../../solutions/2022/day8"
+require_relative "../../solutions/2022/day8ht"
 
 RSpec.describe "Day 8" do
   let(:input) do
