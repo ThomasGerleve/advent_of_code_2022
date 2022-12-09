@@ -8,7 +8,7 @@ RSpec.describe "Day xx" do
   end
 
   describe "Part One" do
-    let(:solution) { Solution.new(input).result_part_two }
+    let(:solution) { Solution.new(input).result_part_one }
 
     it "returns the total number of lanternfish" do
       expect(solution).to eq(5934)
@@ -16,10 +16,10 @@ RSpec.describe "Day xx" do
   end
 
   describe "Part Two" do
-    let(:solution) { Solution.new(input).result_part_two }
+    let(:solution) { Solution.new(input).result_part_two_spec }
 
-    xit "xx" do
-      expect(solution).to eq(xx)
+    it "returns the total number of lanternfish" do
+      expect(solution).to eq(5934)
     end
   end
 end
