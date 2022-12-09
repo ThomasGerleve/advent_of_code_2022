@@ -1,21 +1,17 @@
-require_relative "../../solutions/2022/day8"
+require_relative "../../solutions/20xx/dayx"
 
-RSpec.describe "Day 8" do
+RSpec.describe "Day xx" do
   let(:input) do
     <<~TXT
-      30373
-      25512
-      65332
-      33549
-      35390
+      xx
     TXT
   end
 
   describe "Part One" do
     let(:solution) { Solution.new(input).result_part_one }
 
-    it "counts the visible trees" do
-      expect(solution).to eq(21)
+    it "xx" do
+      expect(solution).to eq(xx)
     end
   end
 
